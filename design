@@ -28,6 +28,8 @@
 	-QSO data (call, exchange, freq, mode)
 	-showing bands/modes already QSO'd 
 	-Warning for dupe
+	-main window is empty box with menu dropdowns,
+		has nested window with the contest specific stuff
 -Call Check
 	-uses SCP data to give potential calls
 -Stats
