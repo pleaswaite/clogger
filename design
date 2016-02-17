@@ -1,0 +1,88 @@
+--Basic Wants--
+-QSO entry
+-Super Check Partial 
+-Mults acquired/missing per station
+-live estimated scores
+-cabrillo output
+-adif output
+-rigctl/similar
+-dupe ID
+-XML/YAML/JSON/Whatever defined contest modules
+
+--Intermediate Wants--
+-Estimated beam headings
+-networking
+-q rate
+-Cluster
+-IDing single/double/no mult
+-name/call of op for multi-op same station
+
+--Long Range Wants--
+-Networked messaging
+-Cluster highlights for new mults
+-Networked view of other stations
+-Supplement SCP with op-defined notes (i.e. better beam headings)
+
+--Windows--
+-Main
+	-QSO data (call, exchange, freq, mode)
+	-showing bands/modes already QSO'd 
+	-Warning for dupe
+-Call Check
+	-uses SCP data to give potential calls
+-Stats
+	-Displays current score (if score module loaded)
+	-Q rate
+	-Number of Q's per band/mode/station
+	-Info on what other stations in network are doing
+	-other stats?
+-Chat
+	-Chat window for talking with other networked stations
+-Log
+	-Shows list of Q's
+	-Maybe have tab or button to show master instead of station log
+-Clock
+	-Has button to enable world domination mode
+	-Either that or it displays the time
+
+--Configure Menus--
+-Network
+	-Define if this is master or slave
+	-name the station
+	-connection info
+	-stuffnthings
+-Operator
+	-Callsign/Name
+	-May have hot key to switch this
+-Radio
+	-Set up rigctl or hamlib or whatever
+-Contest
+	-Load a contest file to get the correct bits and bobs
+
+--File Menu--
+-New
+	-Create a new db
+-Load
+	-Load an existing db (in case of crash or whatever)
+-Export
+	-Convert and dump the db to specified format
+-Configure
+	-Setup various things (see Configure Menu section)
+-Exit
+	-SWATs the op with the highest score
+
+--DB--
+-QSO Table
+	-Defined by contest 
+	-Call
+	-Frequency
+	-Mode
+	-Local Operator
+	-Entries for each exchange item
+-Contest table
+	-Local station callsign
+	-Entered Category
+	-Club
+	-Operator vitals
+	-Stuff?
+	-Maybe soapbox?
