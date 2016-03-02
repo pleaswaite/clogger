@@ -7,7 +7,7 @@
 -adif output
 -rigctl/similar
 -dupe ID
--XML/YAML/JSON/Whatever defined contest modules
+-XML/YAML/JSON/Whatever defined contest modules (probably just .py and .ui files, actually)
 
 --Intermediate Wants--
 -Estimated beam headings
@@ -80,10 +80,11 @@
 	-Frequency
 	-Mode
 	-Local Operator
-	-Entries for each exchange item
+	-Exchange (one field for all of exchange)
 -Contest table
 	-Local station callsign
 	-Entered Category
+	-Contest Name
 	-Club
 	-Operator vitals
 	-Stuff?
